@@ -1,65 +1,56 @@
 body {
-  margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 img {
-  width: 100%;
+  width: 75%;
 }
 
 img.rounded {
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 main h2 {
   font-size: 28px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
 }
 
 main h3 {
   font-size: 22px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 200;
 }
 
 main p {
- font-family: 'Montserrat', sans-serif;
- line-height: 1.5em;
- margin-bottom: 0em;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ line-height: 2.cm;
 }
 
-/* Header */
-
 header {
-  background-color: #6b655b;
+  background-color: black;
   margin-bottom: 40px;
   display: block;
 }
 
 header h1 {
-  color: #eff0e5;
+  color: lightblue;
   text-align: center;
-  margin: 0;
   padding: 20px 0;
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 56px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 70px;
 }
-
-
-/*  Main */
 
 main  .wrapper  h2 {
   padding-left: 10px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 main .intro {
   font-size: 24px;
-  color: #6b655b;
+  color: #301063;
 }
 
-/* Groups & Items  (Mobile First) */
 .wrapper {
   width: 100%;
 }
@@ -72,14 +63,13 @@ main .intro {
 .item {
   flex: 1;
   margin: 10px;
+  
 }
 
 .item-double {
-  flex: 2;
+  flex: 1;
   margin: 10px;
 }
-
-/* Groups & Items  (Desktop) */
 
 @media all and (min-width: 800px) {
   .wrapper {
@@ -92,16 +82,8 @@ main .intro {
   }
 }
 
-/* ARTICLE SECTIONS */
-
-#home, #portfolio, #contact {
-  margin-bottom: 120px;
-}
-
-/* ABOUT ARTICLE */
-
 #about {
-  background-color: #c5c0b8;
+  background-color: rgb(212, 249, 255);
   padding: 20px 0 30px 0;
   margin: 120px 0;
 }
